@@ -1,3 +1,11 @@
+Integrantes:
+Alcaraz, Mariel 
+Badaró, Dylan
+Franco, Pablo Daniel
+Melgar, Agustin Alberto
+Nuñez, Rodrigo
+
+
 1. Abrir XAMPP o wampServer
 2. Descargar composer y nodeJS
 3. Inicializar MySQL
@@ -25,9 +33,11 @@ Pasos para ver el funcionamiento de la aplicación:
     Nuevo Estudiante -> Escribir: Nombre, Email del estudiante. Seleccionar curso al que pertenece 
 
 6. Crear inscripciones a curso
+    Nueva Inscripción -> Seleccionar: Estudiante, Curso y Comisión -> Guardar Inscripción 
 
 
 (Recomendamos que se creen como mínimo 3 de todo y que sean distintos)
+
 
 Una vez tengamos todos estos datos creados en cada sección existe la posibilidad de filtrarlos, y descargar un pdf de todos:
 
@@ -51,3 +61,4 @@ Estudiantes:
 Se puede buscar por nombre o por selección de los cursos, tenemos la posibilidad de limpiar los filtros.
 
 Inscripciones:
+Se puede buscar inscripción por curso y comisión, tenemos los botones de "Filtrar" que es para buscar y el botón de "Limpiar" que es para limpiar los filtros seleccionados
