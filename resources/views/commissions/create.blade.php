@@ -7,7 +7,7 @@
     <form action="{{ route('commissions.store') }}" method="POST">
         @csrf
         <div class="form-group">
-            <label for="classroom">Aula:</label>
+            <label for="classroom">Comisión:</label>
             <input type="text" class="form-control" id="classroom" name="classroom" value="{{ old('classroom') }}" required>
         </div>
         <div class="form-group">
