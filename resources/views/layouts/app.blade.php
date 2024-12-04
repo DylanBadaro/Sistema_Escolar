@@ -16,9 +16,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="{{ route('students.index') }}">Estudiantes</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('subjects.index') }}">Materias</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('courses.index') }}">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('students.index') }}">Estudiantes</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('commissions.index') }}">Comisiones</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('professors.index') }}">Profesores</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('course_students.index') }}">Inscripciones</a></li>
