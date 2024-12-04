@@ -10,21 +10,21 @@ Nuñez, Rodrigo
 2. Descargar composer y nodeJS
 3. Inicializar MySQL
 4. Abrir la carpeta de trabajo en Visual Studio Code
-5. Inicializar la terminal 
+5. Inicializar la terminal (ctrl + ñ)
 6. Ejecutar "php artisan migrate", esto crea la base de datos con las tablas
 7. Ejecutar "php artisan seve"
 
 Con estos pasos logramos ejecutar la aplicación de larabel 
 
 Pasos para ver el funcionamiento de la aplicación:
-1. Crear profesores
-    Nuevo Profesor -> Escribir nombre del profesor -> Guardar Profesor
-
-2. Crear materias
+1.  Crear materias
     Nueva Materia -> Escribir nombre de la materia -> Guardar Materia
 
-3. Crear cursos
+2.  Crear cursos
     Nuevo Curso -> Escribir nombre del curso -> Seleccionar Materia -> Guardar Curso
+
+3. Crear profesores
+    Nuevo Profesor -> Escribir nombre del profesor -> Guardar Profesor
 
 4. Crear comisiones
     Nueva Comisión -> Escribir: Aula, seleccionar horario y curso de la nueva comisión -> Guardar Comisión 
@@ -33,8 +33,13 @@ Pasos para ver el funcionamiento de la aplicación:
     Nuevo Estudiante -> Escribir: Nombre, Email del estudiante. Seleccionar curso al que pertenece 
 
 6. Crear inscripciones a curso
-    Nueva Inscripción -> Seleccionar: Estudiante, Curso y Comisión -> Guardar Inscripción 
+    Nueva Inscripción -> Seleccionar: Estudiante, Curso y Comisión -> Guardar Inscripción
 
+   A tener en cuenta:
+   *Para crear un cruso se necesita crear un materia primero
+   *Para crear un estudiante y comision se debe crear un curso antes
+   *Para crear un profesor no es necesario que tenga una comision asignada, ya que pueden haber profesores que no tengan comisiones asignadas por faltas de horas
+   *Y para generar una inscripcion debe haber estudiante, curso y comision
 
 (Recomendamos que se creen como mínimo 3 de todo y que sean distintos)
 
