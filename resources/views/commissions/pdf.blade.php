@@ -1,27 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Comisiones</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Comisiones</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            font-size: 12px;
         }
         table {
             width: 100%;
             border-collapse: collapse;
         }
-        table th, table td {
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
             padding: 8px;
             text-align: left;
-            border: 1px solid #ddd;
         }
-        table th {
+        th {
             background-color: #f2f2f2;
         }
     </style>
 </head>
 <body>
-    <h2>Lista de Comisiones</h2>
+    <h1>Lista de Comisiones</h1>
     <table>
         <thead>
             <tr>
@@ -37,7 +42,7 @@
                     <td>{{ $commission->id }}</td>
                     <td>{{ $commission->classroom }}</td>
                     <td>{{ $commission->schedule }}</td>
-                    <td>{{ $commission->course->name }}</td>
+                    <td>{{ $commission->course->name ?? 'Sin curso' }}</td>
                 </tr>
             @endforeach
         </tbody>
