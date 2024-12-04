@@ -1,4 +1,3 @@
-<!-- resources/views/subjects/pdf.blade.php -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,19 +7,20 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 30px;
+            font-size: 12px;
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
         }
-        table th, table td {
-            border: 1px solid #ddd;
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
             padding: 8px;
             text-align: left;
         }
-        table th {
+        th {
             background-color: #f2f2f2;
         }
     </style>
@@ -43,6 +43,7 @@
             @endforeach
         </tbody>
     </table>
-</body> 
+</body>
 </html>
+
 
