@@ -11,22 +11,32 @@ Nuñez, Rodrigo
 3. Inicializar MySQL
 4. Abrir la carpeta de trabajo en Visual Studio Code
 5. Para lograr ejecutar el proyecto correctamente se debe configurar el archivo ".env", eso en caso que no aparezca el archivo al hacer el git clone del repositorio lo cual debe tener el siguiente contenido:
-APP_NAME=Laravel
+/*APP_NAME=Laravel
 
 APP_ENV=local
 
 APP_KEY=base64:yh7gsS9QSFZs4l+VXZvNxyDuNnZuCsqR9TeE/ohgnJI=
 
 APP_DEBUG=true
+
 APP_TIMEZONE=UTC
+
 APP_URL=http://localhost
+
 APP_LOCALE=en
+
 APP_FALLBACK_LOCALE=en
+
 APP_FAKER_LOCALE=en_US
+
 APP_MAINTENANCE_DRIVER=file
+
 # APP_MAINTENANCE_STORE=database
+
 PHP_CLI_SERVER_WORKERS=4
+
 BCRYPT_ROUNDS=12
+
 LOG_CHANNEL=stack
 LOG_STACK=single
 LOG_DEPRECATIONS_CHANNEL=null
@@ -65,7 +75,7 @@ AWS_SECRET_ACCESS_KEY=
 AWS_DEFAULT_REGION=us-east-1
 AWS_BUCKET=
 AWS_USE_PATH_STYLE_ENDPOINT=false
-VITE_APP_NAME="${APP_NAME}"
+VITE_APP_NAME="${APP_NAME}"*/
 
 6. Inicializar la terminal (ctrl + ñ) o (ctrl + shift + ñ) 
 7. Ejecutar "php artisan migrate" o "php artisan migrate:refresh", esto crea la base de datos con las tablas
