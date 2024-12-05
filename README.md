@@ -12,8 +12,11 @@ Nuñez, Rodrigo
 4. Abrir la carpeta de trabajo en Visual Studio Code
 5. Para lograr ejecutar el proyecto correctamente se debe configurar el archivo ".env", eso en caso que no aparezca el archivo al hacer el git clone del repositorio lo cual debe tener el siguiente contenido:
 APP_NAME=Laravel
+
 APP_ENV=local
+
 APP_KEY=base64:yh7gsS9QSFZs4l+VXZvNxyDuNnZuCsqR9TeE/ohgnJI=
+
 APP_DEBUG=true
 APP_TIMEZONE=UTC
 APP_URL=http://localhost
