@@ -5,7 +5,12 @@ Franco, Pablo Daniel
 Melgar, Agustin Alberto
 Nuñez, Rodrigo
 
+Descargar el programa:
+Lo primero de todo va aser clonar el repositorio con el comando git clone https://github.com/DylanBadaro/Sistema_Escolar.git
+Una vez clonado el repositorio abrir la carpeta y en ella se van a encontrar 2 .zip, primero descomprimir el que se llama "vendor parte 1" y luego lo que esta del del .zip de "vendor parte 2" 
+se debe descomprimir dentro de la carpeta vendor que se va descargar de la parte 1
 
+Ejecutar el programa:
 1. Abrir XAMPP o wampServer
 2. Descargar composer y nodeJS
 3. Inicializar MySQL
