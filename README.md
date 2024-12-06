@@ -6,7 +6,7 @@ Melgar, Agustin Alberto
 Nuñez, Rodrigo
 
 Descargar el programa:
-Lo primero de todo va aser clonar el repositorio con el comando git clone https://github.com/DylanBadaro/Sistema_Escolar.git
+Lo primero de todo va a hacer es clonar el repositorio con el comando git clone https://github.com/DylanBadaro/Sistema_Escolar.git
 Una vez clonado el repositorio abrir la carpeta y en ella se van a encontrar 2 .zip, primero descomprimir el que se llama "vendor parte 1" y luego lo que esta del del .zip de "vendor parte 2" 
 se debe descomprimir dentro de la carpeta vendor que se va descargar de la parte 1
 
@@ -124,7 +124,7 @@ VITE_APP_NAME="${APP_NAME}"
 6. Inicializar la terminal (ctrl + ñ) o (ctrl + shift + ñ) 
 7. Ejecutar "php artisan migrate" o "php artisan migrate:refresh", esto crea la base de datos con las tablas
 8. Ejecutar el comando: "composer require barryvdh/laravel-dompdf"
-9. Por ultimo ejecutar "php artisan seve"
+9. Por último ejecutar "php artisan seve"
 
 
 Con estos pasos logramos ejecutar la aplicación de laravel 
@@ -149,10 +149,10 @@ Pasos para ver el funcionamiento de la aplicación:
     Nueva Inscripción -> Seleccionar: Estudiante, Curso y Comisión -> Guardar Inscripción
 
    A tener en cuenta:
-   *Para crear un cruso se necesita crear un materia primero
-   *Para crear un estudiante y comision se debe crear un curso antes
-   *Para crear un profesor no es necesario que tenga una comision asignada, ya que pueden haber profesores que no tengan comisiones asignadas por faltas de horas
-   *Y para generar una inscripcion debe haber estudiante, curso y comision
+   *Para crear un cuuso se necesita crear un materia primero
+   *Para crear un estudiante y comisión se debe crear un curso antes
+   *Para crear un profesor no es necesario que tenga una comisión asignada, ya que pueden haber profesores que no tengan comisiones asignadas por faltas de horas
+   *Y para generar una inscripción debe haber estudiante, curso y comisión
 
 (Recomendamos que se creen como mínimo 3 de todo y que sean distintos)
 
@@ -160,7 +160,7 @@ Pasos para ver el funcionamiento de la aplicación:
 Una vez tengamos todos estos datos creados en cada sección existe la posibilidad de filtrarlos, y descargar un pdf de todos:
 
 Profesores: 
-Se puede filtrar por nombre de el profesor y descargar la lista de todos los profesores o de los profesores con mismos nombres.
+Se puede filtrar por nombre del profesor y descargar la lista de todos los profesores o de los profesores con mismos nombres.
 Se puede editar los datos del profesor o eliminarlos en caso de desearlo
 Una vez ya tengamos creada las comisiones, al crear un nuevo profesor aparecerá un listado con las comisiones disponibles creadas
 
@@ -169,11 +169,11 @@ Se puede filtrar por nombre de la materia y descargar la lista de todas las mate
 Se puede editar los datos o eliminarlos en caso de desearlo.
 
 Cursos:
-Tenemos una sección que se puede ver "Todas las materias" o seleccionar una del listado de materias.
+Tenemos una sección en la que se puede ver "Todas las materias" o seleccionar una del listado de materias.
 También se puede buscar por nombre
 
 Comisiones: 
-Se pude seleccionar por curso y horario, de lo contrario se puede buscar por el nombre y presionando el botón "Filtrar"
+Se puede seleccionar por curso y horario, de lo contrario se puede buscar por el nombre y presionando el botón "Filtrar"
 
 Estudiantes:
 Se puede buscar por nombre o por selección de los cursos, tenemos la posibilidad de limpiar los filtros.
